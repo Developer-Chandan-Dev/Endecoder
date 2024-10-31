@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endecoder - Encoding and Decoding Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex-center">
+    <section class="container">
+        <header class="flex-between">
+            <span class="logo">Endecoder</span>
+            <div class="">
+                <button type="button" class="btn switchBtn active" onclick="switchMode('encode')">Encode</button>
+                <button type="button" class="btn switchBtn" onclick="switchMode('decode')">Decode</button>
+            </div>
+            <span>Hello</span>
+        </header>
+        <main class="main">
+            <section class="playGround encode active-playGround" id="encode">
+                <section class="mainContainer encodeMainContainer">
+                    <!-- <div class="messageBox flex end">
+                        <div class="message">
+                            <p>This is a message.</p>
+                        </div>
+                    </div>
+                    <div class="messageBox ">
+                        <div class="message">
+                            <p>This is a message.</p>
+                        </div>
+                        <button class="btn d-block copyBtn" title="Copy">
+                            Copy
+                        </button>
+                    </div> -->
+                </section>
+                <section class="inputArea flex-center">
+                    <div class="flex">
+                        <input type="text" class="inputBox" id="encodeInputBox" required
+                            placeholder="Start writing your message here...">
+                        <button class="btn flex-center btn-sm" id="encodeBtn"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="18" height="18" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg></button>
+                    </div>
+                </section>
+            </section>
+            <section class="playGround decode" id="decode">
+                <section class="mainContainer decodeMainContainer">
+                    <!-- <div class="messageBox flex end">
+                        <div class="message">
+                            <p>This is a message.</p>
+                        </div>
+                    </div>
+                    <div class="messageBox ">
+                        <div class="message">
+                            <p>This is a message.</p>
+                        </div>
+                        <button class="btn d-block copyBtn" title="Copy">
+                            Copy
+                        </button>
+                    </div> -->
+                </section>
+                <section class="inputArea flex-center">
+                    <div class="flex">
+                        <input type="text" class="inputBox" id="decodeInputBox"
+                            placeholder="Start writing encoded message here...">
+                        <button class="btn flex-center btn-sm" id="decodeBtn"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="18" height="18" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg></button>
+                    </div>
+                </section>
+            </section>
+
+        </main>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
