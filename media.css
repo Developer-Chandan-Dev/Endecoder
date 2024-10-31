@@ -1,0 +1,89 @@
+@media (min-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .inputBox {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputBox {
+    width: 350px;
+  }
+}
+@media (max-width: 530px) {
+  .inputBox {
+    width: 300px;
+  }
+  .mainContainer {
+    padding: 2vh 10px;
+  }
+
+  .inputBox {
+    height: 25px;
+  }
+  .btn-sm {
+    padding: 10px 15px !important;
+  }
+  .btn-sm svg {
+    width: 16px;
+    height: 16px;
+  }
+  .hello {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .inputBox {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .inputBox {
+    width: 200px;
+  }
+  .logo {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .btnBox {
+    margin-right: 8px;
+  }
+  header {
+    padding: 0;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  .main {
+    height: 90vh;
+  }
+  .mainContainer {
+    height: 74vh;
+    padding: 2vh 0px;
+  }
+  body{
+    width: 96vw;
+    margin:auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .inputBox {
+    width: 170px;
+  }
+}
+@media (max-width: 285px) {
+  .inputBox {
+    width: 150px;
+  }
+}
